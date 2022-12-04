@@ -28,6 +28,8 @@ public protocol MediaItem {
   /// The url where the media is located.
   var url: URL? { get }
 
+  var urls: [URL]? { get }
+    
   /// The image.
   var image: UIImage? { get }
 
